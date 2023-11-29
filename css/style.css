@@ -310,12 +310,13 @@ header ul.nav li a {
 }
 
 .navbar .nav>li>a {
-  color: #111;
+  color: #eeeeee;
   text-shadow: none;
 }
 
 .navbar .nav a:hover {
   background: none;
+  color: #ffffff;
 }
 
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover {
