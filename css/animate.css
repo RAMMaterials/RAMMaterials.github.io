@@ -14,6 +14,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-webkit-backface-visibility: hidden;
 }
+/*
 .animated {
 	-webkit-animation-duration: 1s;
 	   -moz-animation-duration: 1s;
@@ -199,7 +200,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: swing;
 }
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
+/*
 @-webkit-keyframes wobble {
   0% { -webkit-transform: translateX(0%); }
   15% { -webkit-transform: translateX(-25%) rotate(-5deg); }
@@ -247,7 +248,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: wobble;
 }
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
+/*
 @-webkit-keyframes pulse {
     0% { -webkit-transform: scale(1); }	
 	50% { -webkit-transform: scale(1.1); }
@@ -3011,7 +3012,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: hinge;
 }
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
+/*
 @-webkit-keyframes rollIn {
 	0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); }
 	100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); }
@@ -3039,7 +3040,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: rollIn;
 }
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
+/*
 @-webkit-keyframes rollOut {
     0% {
 		opacity: 1;
@@ -3096,7 +3097,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 }
 
 /* originally authored by Angelo Rohit - https://github.com/angelorohit */
-
+/*
 @-webkit-keyframes lightSpeedIn {
 	0% { -webkit-transform: translateX(100%) skewX(-30deg); opacity: 0; }
 	60% { -webkit-transform: translateX(-20%) skewX(30deg); opacity: 1; }
@@ -3144,7 +3145,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     animation-duration: 0.5s;
 }
 
-/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+/* originally authored by Angelo Rohit - https://github.com/angelorohit */ /*
 
 @-webkit-keyframes lightSpeedOut {
     0% { -webkit-transform: translateX(0%) skewX(0deg); opacity: 1; }
@@ -3183,9 +3184,9 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     -moz-animation-duration: 0.25s;
     -o-animation-duration: 0.25s;
     animation-duration: 0.25s;
-}
+} */
 
-/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+/* originally authored by Angelo Rohit - https://github.com/angelorohit 
 
 @-webkit-keyframes wiggle {
     0% { -webkit-transform: skewX(9deg); }
@@ -3261,3 +3262,4 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     -o-animation-duration: 0.75s;
     animation-duration: 0.75s;
 }
+*/
