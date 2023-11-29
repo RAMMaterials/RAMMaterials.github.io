@@ -271,6 +271,7 @@ header .logo h1 {
 .headnav ul {
   margin-left: 0;
   list-style: none;
+  color: #eeeeee;
 }
 
 .headnav ul li {
