@@ -335,17 +335,17 @@ header ul.nav li a {
 }
 
 header ul.nav li ul {
-  margin-top: 1px;
+  margin-top: 4px;
 }
 
 header ul.nav li ul li ul {
-  margin: 1px 0 0 1px;
+  margin: 3px 0 0 1px;
 }
 
 .dropdown-menu .dropdown i {
   position: absolute;
   right: 0;
-  margin-top: 3px;
+  margin-top: 4px;
   padding-left: 20px;
 }
 
